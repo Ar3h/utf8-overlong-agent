@@ -1,6 +1,6 @@
 # utf8 overlong agent
 
-使用 agent 替换序列化中的`writeUTF`和`writeUTFBody`函数，从而实现在反序列化时生成utf8 overlong数据，绕过流量层检测。
+使用 agent 替换`writeUTF`和`writeUTFBody`函数，从而在序列化时生成utf8 overlong数据，绕过流量层检测。
 
 
 
