@@ -20,12 +20,6 @@
             <artifactId>javassist</artifactId>
             <version>3.29.0-GA</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm-all</artifactId>
-            <version>5.2</version>
-        </dependency>
     </dependencies>
 
     <build>
